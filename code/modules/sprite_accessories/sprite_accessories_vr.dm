@@ -801,11 +801,13 @@
 
 	var/color_blend_mode = ICON_ADD // Only appliciable if do_coloration = 1
 	var/extra_overlay // Icon state of an additional overlay to blend in.
+	var/extra_overlay2 // Icon state of an additional additional overlay to blend in.
 	var/show_species_tail = 0 // If false, do not render species' tail.
 	var/clothing_can_hide = 1 // If true, clothing with HIDETAIL hides it
 	var/desc = "You should not see this..."
 	var/ani_state // State when wagging/animated
 	var/extra_overlay_w // Wagging state for extra overlay
+	var/extra_overlay2_w // Wagging state for extra extra overlay
 
 /datum/sprite_accessory/tail/invisible
 	name = "hide species-sprite tail"
