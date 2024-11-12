@@ -1,5 +1,5 @@
 /datum/job/cmo
-	title = "Chief Medical Officer"
+	title = "Lazarus Biolab Officer"
 	flag = CMO
 	head_position = 1
 	department = DEPARTMENT_MEDICAL
@@ -7,7 +7,7 @@
 	faction = "NEV Northern Light"
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "Lazarus Foundation"
+	supervisors = "The Lazarus Expedition Overseer and the Lazarus Foundation"
 	selection_color = "#94a87f"
 	req_admin_notify = 1
 	wage = WAGE_COMMAND
@@ -41,7 +41,7 @@
 	description = "You are the head of the Medical Bay on the NEV Northern Light and provide medical services to the crew.<br>\
 You are here to keep everyone alive and ideally, at work. You should make choices that preserve life as much as possible.<br>\
 
-The handling of the medbay is your domain, although remember that both medical and science are branches of Lazarus Foundation, so your colleagues have free access to your resources, and vice versa"
+The handling of the medbay is your domain, although remember that both medical and science are branches of Lazarus Foundation, so your colleagues have free access to your resources, and vice versa. And remember, you still answer to the expedition overseer."
 
 	duties = "Organise the doctors under your command to help save lives. Assign patients, and check on their progress periodically<br>\
 Dispatch your paramedics to distress calls, and corpse recoveries as needed<br>\
@@ -55,7 +55,7 @@ In times of crisis, lock down the medbay to protect those within, from outside t
 Your second loyalty is to your career with Lazarus, and to your coworkers in both Medical and Research. Help out your scientific colleagues, and aid in their pursuit of knowledge."
 
 /obj/landmark/join/start/cmo
-	name = "Chief Medical Officer"
+	name = "Lazarus Biolab Officer"
 	icon_state = "player-green-officer"
 	join_tag = /datum/job/cmo
 
@@ -68,7 +68,7 @@ Your second loyalty is to your career with Lazarus, and to your coworkers in bot
 	faction = "NEV Northern Light"
 	total_positions = 5
 	spawn_positions = 5
-	supervisors = "the Chief Medical Officer"
+	supervisors = "Lazarus Biolab Officer"
 	selection_color = "#a8b69a"
 	wage = WAGE_PROFESSIONAL
 	alt_titles = list("Surgeon", "Nurse", "Medical Intern")
@@ -126,7 +126,7 @@ Your second loyalty is to your career with Lazarus, and to your coworkers in bot
 	faction = "NEV Northern Light"
 	total_positions = 2
 	spawn_positions = 2
-	supervisors = "the Chief Medical Officer"
+	supervisors = "Lazarus Biolab Officer"
 	selection_color = "#a8b69a"
 	wage = WAGE_PROFESSIONAL
 	outfit_type = /decl/hierarchy/outfit/job/medical/chemist
@@ -178,7 +178,7 @@ Your second loyalty is to your career with Lazarus, and to your coworkers in bot
 	total_positions = 1
 	spawn_positions = 1
 	wage = WAGE_PROFESSIONAL
-	supervisors = "the Chief Medical Officer"
+	supervisors = "the Lazarus Biolab Officer"
 	selection_color = "#a8b69a"
 	outfit_type = /decl/hierarchy/outfit/job/medical/psychiatrist
 
@@ -213,7 +213,7 @@ Your second loyalty is to your career with Lazarus, and to your coworkers in bot
 	faction = "NEV Northern Light"
 	total_positions = 3
 	spawn_positions = 3
-	supervisors = "the Chief Medical Officer"
+	supervisors = "the Lazarus Biolab Officer"
 	selection_color = "#a8b69a"
 	wage = WAGE_LABOUR_HAZARD
 	outfit_type = /decl/hierarchy/outfit/job/medical/paramedic
@@ -247,9 +247,9 @@ Your second loyalty is to your career with Lazarus, and to your coworkers in bot
 	This is the most dangerous part of your job, and recovery should only be attempted if you can reasonably do so without endangering yourself. If there are hostile creatures preventing recovery, call Security to deal with them.<br>\
 	<br>\
 	Character Expectations:<br>\
-	Paramedic is a physically demanding job, your character must be fit and strong. No fat bodies allowed<br>\
+	Being a paramedic is a physically demanding job, your character must be fit and strong. No fat bodies allowed<br>\
 	EVA training is expected, you should be confident in a medical Voidsuit, and optionally in driving an odysseus mech<br>\
-	Remember that you are a noncombatant. Any weapons you carry should be used for breaching and rescue, not for killing. Use violence only as a last resort to defend yourself or your patient"
+	Remember that you should use violence only as a last resort to defend yourself or your patient"
 
 	duties = "	Respond to distress calls, extract wounded people from dangerous situations, stabilize them at the scene, and take them to medbay for farther treatment as necessary<br>\
 	Watch the crew monitor for signs of injuries or deaths and respond accordingly.<br>\
@@ -259,7 +259,7 @@ Your second loyalty is to your career with Lazarus, and to your coworkers in bot
 
 	loyalties = "As a medical specialist, your first loyalty is to save lives, you swore an oath to do no harm. When in any dangerous situation, do your best to ensure as many as possible come out of it alive. A martyr complex is not uncommon in paramedics<br>\
 	<br>\
-	Your second loyalty is to your immediate superior, the Chief Medical Officer. Follow their instructions and policies."
+	Your second loyalty is to your immediate superior, the Lazarus Biolab Officer. Follow their instructions and policies."
 
 /obj/landmark/join/start/paramedic
 	name = "Trauma Team" //Eclipse Edit - Repolacing Paramedic with Trauma Team
@@ -274,7 +274,7 @@ Your second loyalty is to your career with Lazarus, and to your coworkers in bot
 	faction = "NEV Northern Light"
 	total_positions = 2
 	spawn_positions = 2
-	supervisors = "the Chief Medical Officer"
+	supervisors = "the Lazarus Biolab Officer"
 	selection_color = "#a8b69a"
 	wage = WAGE_PROFESSIONAL
 	also_known_languages = list(LANGUAGE_CYRILLIC = 10)
