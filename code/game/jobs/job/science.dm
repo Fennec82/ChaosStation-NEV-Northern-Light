@@ -1,5 +1,5 @@
 /datum/job/rd
-	title = "Chief Science Officer"
+	title = "Lazarus Expedition Overseer"
 	flag = CSO
 	head_position = 1
 	department = DEPARTMENT_SCIENCE
@@ -52,7 +52,7 @@ Organise away missions to gather artefacts and research interesting environments
 
 As a scientist, your first loyalty is to knowledge and Discovery, the ultimate good in the universe. Learning and developing new technologies is the greatest goal humanity can pursue, and no sacrifice is too great to achieve that end. Even the lives of others or yourself."
 /obj/landmark/join/start/rd
-	name = "Chief Science Officer"
+	name = "Lazarus Expedition Overseer"
 	icon_state = "player-purple-officer"
 	join_tag = /datum/job/rd
 
@@ -66,7 +66,7 @@ As a scientist, your first loyalty is to knowledge and Discovery, the ultimate g
 	faction = "NEV Northern Light"
 	total_positions = 5
 	spawn_positions = 5
-	supervisors = "the Chief Science Officer"
+	supervisors = "the Lazarus Expedition Overseer"
 	selection_color = "#bdb1bb"
 	wage = WAGE_PROFESSIONAL
 	alt_titles = list("Xenobiologist", "Xenoflorist", "Research Intern", "Anomalist")
@@ -120,7 +120,7 @@ Explore, learn and adventure, do anything to advance the cause of knowledge"
 	faction = "NEV Northern Light"
 	total_positions = 3
 	spawn_positions = 3
-	supervisors = "the Chief Science Officer"
+	supervisors = "the Lazarus Expedition Overseer"
 	selection_color = "#bdb1bb"
 	wage = WAGE_PROFESSIONAL
 	outfit_type = /decl/hierarchy/outfit/job/science/roboticist
